@@ -3,26 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Book a free 20-minute career strategy call with ResumeReady.ai." />
-  <title>Book a Free Strategy Call | ResumeReady.ai</title>
+  <title>Book a Free Strategy Call — ResumeReady.ai</title>
   <link rel="stylesheet" href="/assets/css/site.css" />
 </head>
 <body>
+<div class="header-wrap">
 <header>
-  <a class="logo" href="/">ResumeReady.ai</a>
+  <a class="logo" href="/">Resume<span>Ready</span>.ai</a>
   <nav>
     <a href="/">Home</a>
     <a href="/book.html">Book a Call</a>
   </nav>
 </header>
-<div class="form-wrap">
-  <h2>Book a Free Strategy Call</h2>
-  <p style="margin-bottom:1.5rem;color:#6b7280;font-size:0.95rem;">Pick a time that works for you and we will spend 20 minutes mapping out your job search strategy — no pitch, no pressure.</p>
-  <p style="text-align:center;padding:2rem;background:#f0f4ff;border-radius:8px;color:#374151;">
-    <strong>Scheduling coming soon.</strong><br/>
-    In the meantime, email us at <a href="mailto:hello@resumeready.ai">hello@resumeready.ai</a> to book your call.
-  </p>
 </div>
+
+<section class="product-hero">
+  <h1>Book a Free Strategy Call</h1>
+  <p>Not sure which package is right for you? Let's talk. We'll review your situation and recommend the best path forward — no pressure, no obligation.</p>
+</section>
+
+<div class="form-wrap">
+  <h2>Schedule Your Call</h2>
+  <form action="/thank-you.html" method="GET">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required placeholder="Jane Smith" />
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required placeholder="jane@example.com" />
+
+    <label for="role">Target Role or Industry</label>
+    <input type="text" id="role" name="role" placeholder="e.g. Product Manager, Fintech" />
+
+    <label for="notes">Anything else we should know?</label>
+    <textarea id="notes" name="notes" rows="4" placeholder="Tell us about your situation..."></textarea>
+
+    <button type="submit" class="btn btn-primary" style="width:100%;margin-top:0.5rem;">Book My Free Call</button>
+  </form>
+</div>
+
 <footer>
   <p>&copy; 2026 ResumeReady.ai &mdash; All rights reserved.</p>
 </footer>
